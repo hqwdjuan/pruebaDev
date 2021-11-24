@@ -1,0 +1,1 @@
+CREATE TABLE estudiante (id_estudiante INT AUTO_INCREMENT, nombres VARCHAR(50) NOT NULL, apellidos VARCHAR(50) NOT NULL, email VARCHAR(50) NOT NULL, telefono VARCHAR(10) NOT NULL, interesado VARCHAR(50) NOT NULL, contactado TINYINT DEFAULT '0' NOT NULL, PRIMARY KEY(id_estudiante)) ENGINE = INNODB;

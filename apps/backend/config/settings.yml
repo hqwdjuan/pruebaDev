@@ -3,7 +3,7 @@
 
 prod:
   .settings:
-    no_script_name:         true
+    no_script_name:         false
     logging_enabled:        false
 
 dev:
@@ -25,7 +25,7 @@ test:
 all:
   .settings:
     # Form security secret (CSRF protection)
-    csrf_secret:            a377f4186633ba654ab222c8eadd57a94cfad32a
+    csrf_secret:            832b4110846300d2083dfbc8429b173a21483b95
 
     # Output escaping settings
     escaping_strategy:      true
@@ -33,6 +33,3 @@ all:
 
     # Enable the database manager
     use_database:           true
-  .actions:
-    login_module: default
-    login_action: login

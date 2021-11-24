@@ -1,0 +1,2 @@
+Error, Datos invalidos
+<?php

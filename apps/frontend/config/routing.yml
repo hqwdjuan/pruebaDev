@@ -4,13 +4,18 @@
 # default rules
 homepage:
   url:   /
-  param: { module: default, action: index }
+  param: { module: registro, action: new }
+  is_secure: false
+
+create:
+  url: /create
+  param: { module: registro, action: create , method: POST}
 
 # generic rules
 # please, remove them by adding more specific rules
-default_index:
-  url:   /:module
-  param: { action: index }
+#default_index:
+#  url:   /:module
+#  param: { action: index }
 
-default:
-  url:   /:module/:action/*
+#default:
+#  url:   /:module/:action/*
